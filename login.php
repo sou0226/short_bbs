@@ -12,7 +12,6 @@
     ユーザー名:<input type="text" name="user"><br>
     パスワード:<input type="text" name="pass"><br>
     パスワード:<input type="text" name="pass"><br>
-    <button type="submit" name="button">ログイン</button>
 </body>
 
 </html>
