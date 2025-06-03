@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,8 +10,11 @@
 </head>
 <body>
     <h1>ログイン</h1>
+   
+<form action="check.php" method="post">
     ユーザ名：<input type="text" name="text" method="post"><br><br>
     パスワード：<input type="password" name="password" method="post"><br><br>
-    <input type="submit" value="ログイン"> 
+    <input type="submit" value="ログイン">
+</form> 
 </body>
 </html>
