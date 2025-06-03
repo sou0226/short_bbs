@@ -7,8 +7,8 @@
 </head>
 <body>
     <h1>ログイン</h1>
-    ユーザ名：<input type="text" name="text"><br><br>
-    パスワード：<input type="password" name="password"><br><br>
+    ユーザ名：<input type="text" name="text" method="post"><br><br>
+    パスワード：<input type="password" name="password" method="post"><br><br>
     <input type="submit" value="ログイン"> 
 </body>
 </html>
