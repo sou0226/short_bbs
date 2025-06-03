@@ -11,7 +11,9 @@
     <h1>ログイン</h1>
     ユーザー名:<input type="text" name="user"><br>
     パスワード:<input type="text" name="pass"><br>
-    パスワード:<input type="text" name="pass"><br>
+    <form action="form.php" method="post">
+        <button type="submit" name="select"> ログイン</button>
+    </form>
 </body>
 
 </html>
