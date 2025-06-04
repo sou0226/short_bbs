@@ -9,12 +9,11 @@
 
 <body>
     <h1>ログイン</h1>
-    ユーザー名:<input type="text" name="user"><br>
-    パスワード:<input type="text" name="pass"><br>
     <form action="form.php" method="post">
+        ユーザー名:<input type="text" value="のむら" name="user"><br>
+        パスワード:<input type="password" value="1234" name="pass"><br>
         <button type="submit" name="select"> ログイン</button>
     </form>
 </body>
-asdfg
 
 </html>
